@@ -1,12 +1,22 @@
 <!DOCTYPE html>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=KoHo&display=swap" rel="stylesheet">
 <body>
     <main>
-        <h1>Let's Play Rock Paper Scissors</h1>
-        <div id="playerScore"></div>
-        <div id="computerScore"></div>
-        <div id="gameRound"></div>
-        <div id= "rock" class="buttons"></div>
-        <div id="paper" class="buttons"></div>
-        <div id="scissors" class="buttons"></div> 
+        <div id="headerContainer">
+            <h1>Let's Play Rock Paper Scissors</h1>
+        </div>
+        <div id="scoreContainer">
+            <div id="playerScore" class="scores"><u> Your Score </u><br>0</div>
+            <div id="computerScore" class="scores"><u>Computer Score</u><br>0</div>
+            <div id="gameRound" class="scores"><u>Game Round</u><br>0</div>
+        </div>
+        <div id="buttonContainer">
+            <div id= "rock" class="gameButtons">Rock</div>
+            <div id="paper" class="gameButtons">Paper</div>
+            <div id="scissors" class="gameButtons">Scissors</div> 
+        </div>
     </main>
+    <script src="logic.js"></script>
 </body>
