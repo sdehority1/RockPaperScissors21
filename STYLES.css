@@ -11,6 +11,17 @@ h1{
     text-decoration: underline;
 }
 
+#resultWrapper{
+    text-align: center;
+    font-size: xx-large;
+    text-decoration: wavy;
+}
+
+#result{
+    text-align: center;
+    font-size: x-large;
+}
+
 
 #scoreContainer{
     display: flex;
@@ -39,7 +50,6 @@ h1{
 
 #buttonContainer{
     display:flex;
-    flex-direction: row;
    margin: 50px 0 0 0;
    
 }
