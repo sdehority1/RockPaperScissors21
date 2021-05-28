@@ -11,6 +11,19 @@ h1{
     text-decoration: underline;
 }
 
+h3{
+    text-align: center;
+}
+
+#anotherWrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+#mainContainer{
+        display: flex;
+}
+
 #resultWrapper{
     text-align: center;
     font-size: xx-large;
@@ -25,9 +38,9 @@ h1{
 
 #scoreContainer{
     display: flex;
-    flex-direction: row;
     width: 100%;
-    margin: 50px 0 0 0 
+    margin: 10px 0 0 0;
+    float: right;
 }
 
 .scores{
@@ -39,6 +52,7 @@ h1{
     height: 100px;
     padding-top: 49px;
     margin: 2px;
+    font-size: large;
 }
 
 .scores:hover{
@@ -48,27 +62,47 @@ h1{
 }
 
 
-#buttonContainer{
+#playerButtonContainer{
     display:flex;
-   margin: 50px 0 0 0;
-   
+   flex-direction: column;
+   width: 50%;
 }
 
-.gameButtons{
-    border-radius: 10px;    
+#computerButtonContainer{
+    display:flex;
+   flex-direction: column;
+   width: 50%;
+}
+
+
+.playerGameButtons{
+     border-radius: 10px;    
     flex-grow: 1;
     text-align: center;
     background-color: #5964A6;
     color: #FFFDD0;
-    height: 185px;
+    height: 2em;
     border: solid;
-    padding-top: 155px;
     margin: 2px;
     border-width: thin;
     font-size:large;
+    padding-top: 2%;
 }
 
-.gameButtons:active{
+.computerGameButtons{
+    border-radius: 10px;    
+   flex-grow: 1;
+   text-align: center;
+   background-color: #FFFDD0;
+   color: #5964A6;;
+   height: 2em;
+   border: solid;
+   margin: 2px;
+   border-width: thin;
+   font-size:large;
+   padding-top: 2%;
+}
+.playerGameButtons:active{
     color: #5964A6;
     background-color: #FFFDD0;;
     border-radius: 9px;

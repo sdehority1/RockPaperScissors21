@@ -6,18 +6,37 @@
 <body>
     <main>
         <div id="headerContainer">
-            <h1>Let's Play Rock Paper Scissors</h1>
+            <h1>Rock Paper Scissors</h1>
         </div>
-       <div id="resultWrapper"> Match Result:<div id="result">Who will be victorious?</div></div>
-        <div id="buttonContainer">
-            <div id="rock" class="gameButtons">Rock</div>
-            <div id="paper" class="gameButtons">Paper</div>
-            <div id="scissors" class="gameButtons">Scissors</div>
+        <div id="resultWrapper"> Match Result:<div id="result"></div>
+        <div id="seriesResult"></div>
+        </div>
+        <div id="anotherWrapper">
+            <div id='mainContainer'>
+                <div id="playerButtonContainer">
+                    <h3>Your Selection</h3>
+                    <div id="rock" class="playerGameButtons">Rock</div>
+                    <div id="paper" class="playerGameButtons">Paper</div>
+                    <div id="scissors" class="playerGameButtons">Scissors</div>
+                </div>
+                <div id="computerButtonContainer">
+                    <h3>Computer Selection</h3>
+                    <div class="computerGameButtons">Rock</div>
+                    <div class="computerGameButtons">Paper</div>
+                    <div  class="computerGameButtons">Scissors</div>
+                </div>
+            </div>
         </div>
         <div id="scoreContainer">
-            <div class="scores"><u> Your Score </u><br><div id="playerScore">0</div></div>
-            <div class="scores"><u>Computer Score</u><br><div id="computerScore">0</div></div>
-            <div class="scores"><u>Game Round</u><br> <div id="gameRound">0</div></div>
+            <div class="scores"><u> Your Score </u><br>
+                <div id="playerScore">0</div>
+            </div>
+            <div class="scores"><u>Computer Score</u><br>
+                <div id="computerScore">0</div>
+            </div>
+            <div class="scores"><u>Game Round</u><br>
+                <div id="gameRound">0</div>
+            </div>
         </div>
     </main>
     <script src="logic.js"></script>
