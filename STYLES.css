@@ -103,7 +103,6 @@ h3{
    padding-top: 2%;
 }
 .playerGameButtons:active{
-    color: #5964A6;
-    background-color: #FFFDD0;;
     border-radius: 9px;
+    opacity: .9;
 }
