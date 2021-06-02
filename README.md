@@ -1,3 +1,3 @@
 # RockPaperScissors21
 
-Updated version of The Odin Project's Rock/Paper/Scissors challenge. 
+Play Rock-Paper-Scissors against your computer. Do you have what it takes to triumph over the machine?
