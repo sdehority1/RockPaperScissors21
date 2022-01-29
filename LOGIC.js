@@ -87,7 +87,7 @@ let math = () => {
         k++;
         document.getElementById("result").innerHTML = `It's a tie!`;
     }
-    //GAME END PLAYER WIN
+    //GAME END COMPUTER WIN
     if (i === 5) {
         alert(`The computer won the series, ${i} to ${j}`);
         document.getElementById("playerScore").innerHTML = 0;
@@ -104,7 +104,7 @@ let math = () => {
         j = 0;
         k = 0;
     }
-    //GAME END COMPUTER WIN
+    //GAME END PLAYER WIN
     if (j === 5) {
         alert(`Man has triumphed over machine, ${j} to ${i}`);
         document.getElementById("playerScore").innerHTML = 0;
